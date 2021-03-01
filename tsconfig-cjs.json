@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "strict": true,
+        "rootDir": "./src",
+        "outDir": "lib/cjs",
+        "target": "es2020",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+      "node_modules",
+      "test/*.test.ts"
+    ],
+    "include": [
+        "src/*.ts",
+      ]
+}
