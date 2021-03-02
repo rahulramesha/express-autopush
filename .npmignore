@@ -1,7 +1,8 @@
+/.github
 node_modules
-test
-src
-package-lock.json
-.gitignore
-tsconfig.json
-tsconfig-cjs.json
+/test
+/src
+/package-lock.json
+/.gitignore
+/tsconfig.json
+/tsconfig-cjs.json
