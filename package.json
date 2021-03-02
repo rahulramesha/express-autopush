@@ -6,9 +6,9 @@
   "module": "lib/esm/index.js",
   "types": "lib/esm/index.d.ts",
   "scripts": {
-    "test": "jest --verbose=true --silent=false",
+    "test": "jest",
     "clean": "del-cli --force lib",
-    "compile": "tsc -p tsconfig-cjs.json && tsc -p tsconfig.json && echo {\"type\": \"commonjs\"} > ./lib/cjs/package.json",
+    "compile": "tsc -p tsconfig-cjs.json && tsc -p tsconfig.json",
     "pre": "npm run clean && npm run compile"
   },
   "author": "rahulramesha <rahulramesham@gmail.com>",
