@@ -1,6 +1,6 @@
 {
   "name": "http2-express-autopush",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "http2 autopush middleware for express",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -16,8 +16,9 @@
   "keywords": [
     "express",
     "http2",
-    "server push",
-    "autopush"
+    "server-push",
+    "autopush",
+    "auto-push"
   ],
   "devDependencies": {
     "@types/cookie": "^0.4.0",
@@ -36,5 +37,16 @@
     "cookie": "^0.4.1",
     "h2-auto-push": "^0.4.1",
     "serve-static": "^1.14.1"
-  }
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulramesha/express-autopush.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulramesha/express-autopush/issues"
+  },
+  "homepage": "https://github.com/rahulramesha/express-autopush#readme"
 }
