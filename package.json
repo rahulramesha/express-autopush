@@ -1,5 +1,5 @@
 {
-  "name": "h2-express-autopush",
+  "name": "http2-express-autopush",
   "version": "1.0.0",
   "description": "http2 autopush middleware for express",
   "main": "lib/cjs/index.js",
