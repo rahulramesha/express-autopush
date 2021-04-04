@@ -1,6 +1,6 @@
 {
   "name": "http2-express-autopush",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "http2 autopush middleware for express",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",

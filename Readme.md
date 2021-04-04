@@ -1,4 +1,4 @@
-# express-autopush
+# http2-express-autopush
 
 express middleware for http2 auto push, based on h2-auto-push
 
@@ -9,7 +9,7 @@ Can be installed same as any other npm package.
 Node.js version 10 or higher is recommended.
 
 ```bash
-$ npm install express-autopush
+$ npm install http2-express-autopush
 ```
 
 ## Server Push
@@ -30,7 +30,7 @@ This leads to performance gains.
 
 On the topic of server push, lots of guidelines have to be followed to have actual performance gains. See [Rules of Thumb for HTTP/2 Push](https://docs.google.com/document/d/1K0NykTXBbbbTlv60t5MyJvXjqKGsCVNYHyLEXIxYMv0/edit?usp=sharing) for the details.
 
-TLDR, if the file is pushed all the time, even when it is already cached in the browser, It leads to worse performance. That's where express-autopush middleware comes in.
+TLDR, if the file is pushed all the time, even when it is already cached in the browser, It leads to worse performance. That's where http2-express-autopush middleware comes in.
 
 
 ## Usage
@@ -40,7 +40,7 @@ const express = require('express')
 const http2Express = require('http2-express-bridge')
 const http2 = require('http2')
 const { readFileSync } = require('fs')
-const autopush = require('express-autopush')
+const autopush = require('http2-express-autopush')
 
 const app = http2Express(express)
 const options = {
